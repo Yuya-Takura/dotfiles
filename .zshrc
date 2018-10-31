@@ -156,3 +156,14 @@ function title {
 export PATH="$HOME/.rbenv/bin:$PATH"
 #export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init -)"
+
+# -------------------------------------
+# Google Cloud Platform
+# -------------------------------------
+source '/Users/T_eQ_uiL_a/google-cloud-sdk/completion.zsh.inc'
+source '/Users/T_eQ_uiL_a/google-cloud-sdk/path.zsh.inc'
+
+# -------------------------------------
+# Completion
+# -------------------------------------
+alias go="nocorrect go"
