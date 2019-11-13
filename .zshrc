@@ -118,12 +118,24 @@ alias grep="grep --color -n -I --exclude='*.svn-*' --exclude='entries' --exclude
 
 # ls
 alias ls="ls -G" # color for darwin
-alias l="ls -la"
+alias ll="ls -la"
 alias la="ls -la"
 alias l1="ls -1"
 
 # tree
 alias tree="tree -NC" # N: 文字化け対策, C:色をつける
+
+# git
+alias gc="git checkout"
+alias ga="git add"
+alias gc-m="git commit -m"
+alias gs="git status"
+alias gd="git diff"
+alias gpl="git pull"
+alias gps="git push"
+
+# zsh
+alias sz="source ~/.zshrc"
 
 
 # -------------------------------------
@@ -141,6 +153,9 @@ zle -N cdup
 bindkey '^K' cdup
 
 bindkey "^R" history-incremental-search-backward
+
+bindkey ";5C" forward-word
+bindkey ";5D" backward-word
 
 # -------------------------------------
 # その他
