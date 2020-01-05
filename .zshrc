@@ -125,14 +125,23 @@ alias l1="ls -1"
 # tree
 alias tree="tree -NC" # N: 文字化け対策, C:色をつける
 
+# bundler
+alias be="bundle exec"
+
 # git
 alias gc="git checkout"
+alias gc.="git checkout ."
 alias ga="git add"
+alias ga.="git add ."
 alias gc-m="git commit -m"
 alias gs="git status"
 alias gd="git diff"
+alias gd-c="git diff --cached"
 alias gpl="git pull"
 alias gps="git push"
+
+# rails
+alias rk="lsof -i tcp:3000 | grep ruby | awk '{print \$2}' | xargs kill -9"
 
 # zsh
 alias sz="source ~/.zshrc"
