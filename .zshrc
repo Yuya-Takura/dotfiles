@@ -143,6 +143,9 @@ alias gps="git push"
 # rails
 alias rk="lsof -i tcp:3000 | grep ruby | awk '{print \$2}' | xargs kill -9"
 
+# terraform
+alias tf="terraform"
+
 # zsh
 alias sz="source ~/.zshrc"
 
