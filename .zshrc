@@ -129,16 +129,18 @@ alias tree="tree -NC" # N: 文字化け対策, C:色をつける
 alias be="bundle exec"
 
 # git
-alias gc="git checkout"
-alias gc.="git checkout ."
 alias ga="git add"
 alias ga.="git add ."
+alias gb="git branch"
+alias gc="git checkout"
+alias gc.="git checkout ."
 alias gc-m="git commit -m"
-alias gs="git status"
 alias gd="git diff"
 alias gd-c="git diff --cached"
+alias gl="git log"
 alias gpl="git pull"
 alias gps="git push"
+alias gs="git status"
 
 # rails
 alias rk="lsof -i tcp:3000 | grep ruby | awk '{print \$2}' | xargs kill -9"
