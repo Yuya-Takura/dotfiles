@@ -140,6 +140,7 @@ alias gd-c="git diff --cached"
 alias gl="git log"
 alias gpl="git pull"
 alias gps="git push"
+alias gps-u="git push -u"
 alias gs="git status"
 
 # rails
